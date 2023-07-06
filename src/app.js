@@ -47,6 +47,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
+app.use(express.json());
 
 
 const buildPath = path.join(__dirname, 'dist');
