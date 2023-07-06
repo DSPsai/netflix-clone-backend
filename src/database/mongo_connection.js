@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB Atlas
-mongoose.connect(process.env.ATLAS_URI, {
+mongoose.connect('mongodb+srv://dspsaiprudhvi007:Pass1234@cluster0.1tblibb.mongodb.net/netflix_clone', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
